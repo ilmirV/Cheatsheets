@@ -1,11 +1,11 @@
 # Learn Flask
-## Introduction to Flask<a name="Introduction"></a>
+## Introduction to Flask<a name="introduction"></a>
 #### TOPICS
-* [Introduction to Flask](#Introduction)
-* [Jinja2 Templates and Forms](#Jinja2)
-* [Databases in Flask](#Databases)
-* [Accounts and Authentication](#Authentication)
-* [Deploying an Application with Heroku](#Heroku)
+* [Introduction to Flask](#introduction)
+* [Jinja2 Templates and Forms](#jinja2)
+* [Databases in Flask](#databases)
+* [Accounts and Authentication](#authentication)
+* [Deploying an Application with Heroku](#heroku)
 ### Python Flask Framework
 Flask is a popular Python framework for developing web applications. It comes with minimal built-in functionalities and requirements, making it simple to get started and flexible to use. The developer has the liberty to customize most aspects of the app, including database integration, accounts and authentication, and more.
 ### Creating Flask App Object
@@ -50,3 +50,36 @@ Variable rules allow a Flask app to respond to dynamic URLs. Variable sections o
 def content(pg_num):
     return f'<h1>Displaying results for page {pg_num}</h1>'
 ```
+## Jinja2 Templates and Forms <a name="jinja2"></a>
+### Flask Templates
+Flask uses templates to expand the functionality of a web application while maintaining a simple and organized file structure. Templates are enabled using the Jinja2 template engine and allow data to be shared and processed before being turned in to content and sent back to the client.
+### render_template Function
+The `render_template()` function renders HTML files for display in the web browser using the Jinja2 template engine. Its sole positional argument is the name of the template to be rendered. Keyword arguments can be added to support application variables within the template.
+```python
+@app.route('/')
+def index():
+    return render_template("index.html")
+```
+where `render_template` processes template files in the “templates” directory. The “templates” directory located inside the running application directory.\
+├── app_dir │ ├── templates │ │ ├── my_template.html │ ├── app.py
+### Template Variables
+Template variables are representations of application data that are used inside templates. Created using keyword arguments in `render_template`, template variables are substituted into a template when using expression delimiters `{{ }}`
+
+Used in Jinja templates, expression delimiters `{{ }}` surround expressions such as variables to be identified by the template engine.
+```python
+return render_template('my_template.html', template_var1=flask_var1, template_var2=flask_var2)
+ 
+## The template variables are substituted into "my_template.html" using the following format
+## {{ template_var1 }} and {{ template_var2 }}
+```
+### Template Variable Filters
+### Template if Statements
+### Template for Loops
+### Template Inheritance
+### Flask Web Forms
+### request Object
+### url_for Function
+### FlaskForm Class
+### WTForm Fields
+### Form Validation
+### redirect() Function
