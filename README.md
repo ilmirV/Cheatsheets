@@ -1,3 +1,3 @@
 # Cheatsheets
 Cheatsheets from Codecademy
-[Python](Learn Flask.md)
+* [Python](Python/Learn%20Flask.md)
