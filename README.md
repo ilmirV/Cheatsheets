@@ -2,7 +2,7 @@
 Cheatsheets from Codecademy
 ## Languages
 * [HTML & CSS]()
-* [Python](Python/Learn%20Flask.md)
+* [Python](Python/Python.md)
 * [JavaScript]()
 * [Java]()
 * [SQL]()
