@@ -1,2 +1,3 @@
 # Cheatsheets
-Cheatsheet from Codecademy
+Cheatsheets from Codecademy
+* [Python](#python)
