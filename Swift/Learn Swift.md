@@ -1,5 +1,5 @@
 # Learn Swift
-#### TOPICS
+#### TOPICS <a name="topics"></a>
 * [Hello World](#hello)
 * [Variables](#variables)
 * [Conditionals & Logic](#condition)
@@ -39,6 +39,7 @@ This is all commented out.
 None of it is going to run!
 */
 ```
+[Go to Topics](#topics)
 ## Variables <a name="variables"></a>
 ### Variables
 A variable refers to a storage location in the computer’s memory that one can set aside to save, retrieve, and manipulate data.
@@ -110,6 +111,7 @@ print("There are \(numberOfDogs) dalmations!")
  
 // Prints: There are 101 dalmations!
 ```
+[Go to Topics](#topics)
 ## Conditionals & Logic <a name="condition"></a>
 ### if Statement
 An `if` statement executes a code block when its condition evaluates to `true`. If the condition is `false`, the code block does not execute.
@@ -297,6 +299,7 @@ true || true && false || false      // true
  
 (true || true) && (false || false)  // false
 ```
+[Go to Topics](#topics)
 ## Loops <a name="loops"></a>
 ### Ranges
 Ranges created by the `...` operator will include the numbers from the lower bound to (and includes) the upper bound.
@@ -383,6 +386,7 @@ while counter < stopNum {
  
 // The loop prints until the stop condition is met
 ```
+[Go to Topics](#topics)
 ## Arrays & Sets <a name="arrays"></a>
 ### Array
 An array stores an ordered collection of values of the same data type.
@@ -592,6 +596,7 @@ var setC = setA.subtracting(setB)
 print(setC) 
 // Prints: ["B", "A"]
 ```
+[Go to Topics](#topics)
 ## Dictionaries <a name="dictionaries"></a>
 ### Dictionary
 A dictionary is an unordered collection of paired data, or key-value pairs.
@@ -761,6 +766,7 @@ for meaning in emojiMeaning.values {
   print(meaning)
 }
 ```
+[Go to Topics](#topics)
 ## Functions <a name="functions"></a>
 ### What is a Function?
 A function is a named, reusable block of code responsible for a certain task. It consists of a definition that includes the `func` keyword, name, optional parameters, and return type as well as a body that contains the code block needed to execute its task.
@@ -894,6 +900,7 @@ determineSeason(monthNum: 4, season: &currentSeason)
  
 print(currentSeason) // Spring 🌱
 ```
+[Go to Topics](#topics)
 ## Structures <a name="structures"></a>
 ### Structure Creation
 Structures, or structs, are used to programmatically represent a real-life object in code. Structures are created with the `struct` keyword followed by its name and then body containing its properties and methods.
@@ -987,6 +994,7 @@ dinerMenu.addToMenu(dish: "Toast")
 print(dinerMenu.menuItems) 
 // Prints: ["Fries", "Burgers", "Toast"]
 ```
+[Go to Topics](#topics)
 ## Classes <a name="classes"></a>
 ### Swift Class
 A class is used to programmatically represent a real-life object in code. Classes are defined by the keyword `class` followed by the class name and curly braces that store the class’s properties and methods.
@@ -1117,3 +1125,4 @@ class SavingsAccount: BankAccount {
 Classes are reference types, while structures are value types, classes are reference types.
 
 Unlike value types, reference types are not copied when they are assigned to a variable or constant, or when they are passed to a function. Rather than a copy, a reference to the same existing instance is used.
+[Go to Topics](#topics)
