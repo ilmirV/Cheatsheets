@@ -384,7 +384,214 @@ while counter < stopNum {
 // The loop prints until the stop condition is met
 ```
 ## Arrays & Sets <a name="arrays"></a>
+### Array
+An array stores an ordered collection of values of the same data type.
 
+Use the initializer syntax, `[Type]()`, to create an empty array of a certain type.
+```swift
+var scores = [Int]()
+ 
+// The array is empty: []
+```
+### Initialize with Array Literal
+An array can be initialized with an array literal, which is a short-hand method of writing one or more values as an array collection.
+
+An array literal is written as a list of values, separated by commas, and surrounded by a pair of square brackets.
+```swift
+// Using type inference:
+var snowfall = [2.4, 3.6, 3.4, 1.8, 0.0]
+ 
+// Being explicit with the type:
+var temp: [Int] = [33, 31, 30, 38, 44]
+```
+### Index
+An index refers to an item’s position within an ordered list. Use the subscript syntax, `array[index]`, to retrieve an individual element from an array.
+
+**Note:** Swift arrays are zero-indexed, meaning the first element has index `0`.
+```swift
+var vowels = ["a", "e", "i", "o", "u"]
+ 
+print(vowels[0])  // Prints: a
+print(vowels[1])  // Prints: e
+print(vowels[2])  // Prints: i
+print(vowels[3])  // Prints: o
+print(vowels[4])  // Prints: u
+```
+### .count Property
+The `.count` property returns the number of elements in an array.
+```swift
+var grocery = ["🥓", "🥞", "🍪", "🥛", "🍊"]
+ 
+print(grocery.count)
+ 
+// Prints: 5
+```
+### .append() Method and += Operator
+The `.append()` method can be called on an array to add an item to the end of the array.
+
+The `+=` addition assignment operator can be used to add the elements of another array to the existing array.
+```swift
+var gymBadges = ["Boulder", "Cascade"]
+ 
+gymBadges.append("Thunder")
+gymBadges += ["Rainbow", "Soul"]
+ 
+// ["Boulder", "Cascade", "Thunder", "Rainbow", "Soul"]
+```
+### .insert() and .remove() Methods
+The `.insert()` method can be called on an array to add an element at a specified index. It takes two arguments: `value` and `at: index`.
+
+The `.remove()` method can be called on an array to remove an element at a specified index. It takes one argument: `at: index`.
+```swift
+var moon = ["🌖", "🌗", "🌘", "🌑"]
+ 
+moon.insert("🌕", at: 0)
+ 
+// ["🌕", "🌖", "🌗", "🌘", "🌑"]
+ 
+moon.remove(at: 4)
+ 
+// ["🌕", "🌖", "🌗", "🌘"]
+```
+### Iterating Over an Array
+In Swift, a `for`-`in` loop can be used to iterate through the items of an array.
+
+This is a powerful tool for working with and manipulating a large amount of data.
+```swift
+var employees = ["Michael", "Dwight", "Jim", "Pam", "Andy"]
+ 
+for person in employees {
+  print(person)
+}
+ 
+// Prints: Michael
+// Prints: Dwight
+// Prints: Jim
+// Prints: Pam
+// Prints: Andy
+```
+### Swift Sets
+We can use a set to store unique elements of the same data type.
+```swift
+var paintingsInMOMA: Set = ["The Dream", "The Starry Night", "The False Mirror"]
+```
+### Empty Sets
+An empty set is a set that contains no values inside of it.
+```swift
+var team = Set<String>()
+ 
+print(team)
+// Prints: []
+```
+### Populated Sets
+To create a set populated with values, use the `Set` keyword before the assignment operator.
+
+The values of the set must be contained within brackets `[]` and separated with commas `,`.
+```swift
+var vowels: Set = ["a", "e", "i", "o", "u"]
+```
+### .insert()
+To insert a single value into a set, append `.insert()` to a set and place the new value inside the parentheses `()`.
+```swift
+var cookieJar: Set = ["Chocolate Chip", "Oatmeal Raisin"]
+ 
+// Add a new element
+cookieJar.insert("Peanut Butter Chip")
+```
+### .remove() and .removeAll() Methods
+To remove a single value from a set, append `.remove()` to a set with the value to be removed placed inside the parentheses `()`.
+
+To remove every single value from a set at once, append `.removeAll()` to a set.
+```swift
+var oddNumbers: Set = [1, 2, 3, 5]
+ 
+// Remove an existing element
+oddNumbers.remove(2)
+ 
+// Remove all elements
+oddNumbers.removeAll()
+```
+### .contains()
+Appending `.contains()` to an existing set with an item in the parentheses `()` will return a `true` or `false` value that states whether the item exists within the set.
+```swift
+var names: Set = ["Rosa", "Doug", "Waldo"]
+ 
+print(names.contains("Lola")) // Prints: false
+ 
+if names.contains("Waldo"){
+  print("There's Waldo!")
+} else {
+  print("Where's Waldo?")
+}
+// Prints: There's Waldo!
+```
+### Iterating Over a Set
+A `for`-`in` loop can be used to iterate over each item in a set.
+```swift
+var recipe: Set = ["Chocolate chips", "Eggs", "Flour", "Sugar"]
+ 
+for ingredient in recipe {
+  print ("Include \(ingredient) in the recipe.")
+}
+```
+### .isEmpty Property
+Use the built-in property `.isEmpty` to check if a set has no values contained in it.
+```swift
+var emptySet = Set<String>()
+ 
+print(emptySet.isEmpty)  // Prints: true
+ 
+var populatedSet: Set = [1, 2, 3]
+ 
+print(populatedSet.isEmpty) // Prints: false
+```
+### .count Property
+The property `.count` returns the number of elements contained within a set.
+```swift
+var band: Set = ["Guitar", "Bass", "Drums", "Vocals"]
+ 
+print("There are \(band.count) players in the band.")
+// Prints: There are 4 players in the band.
+```
+### .intersection() Operation
+The `.intersection()` operation populates a new set of elements with the overlapping elements of two sets.
+```swift
+var setA: Set = ["A", "B", "C", "D"]
+var setB: Set = ["C", "D", "E", "F"]
+ 
+var setC = setA.intersection(setB)
+print(setC)  // Prints: ["D", "C"]
+```
+### .union() Operation
+The `.union()` operation populates a new set by taking all the values from two sets and combining them.
+```swift
+var setA: Set = ["A", "B", "C", "D"]
+var setB: Set = ["C", "D", "E", "F"]
+ 
+var setC = setA.union(setB)
+print(setC) 
+// Prints: ["B", "A", "D", "F", "C", "E"]
+```
+### .symmetricDifference() Operation
+The `.symmetricDifference()` operation creates a new set with all the non-overlapping values between two sets.
+```swift
+var setA: Set = ["A", "B", "C", "D"]
+var setB: Set = ["C", "D", "E", "F"]
+ 
+var setC = setA.symmetricDifference(setB)
+print(setC) 
+// Prints: ["B", "E", "F", "A"]
+```
+### .subtracting() Operation
+The `.subtracting()` operation removes the values of one second set from another set and stores the remaining values in a new set.
+```swift
+var setA: Set = ["A", "B", "C", "D"]
+var setB: Set = ["C", "D"]
+ 
+var setC = setA.subtracting(setB)
+print(setC) 
+// Prints: ["B", "A"]
+```
 ## Dictionaries <a name="dictionaries"></a>
 
 ## Functions <a name="functions"></a>
