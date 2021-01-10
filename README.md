@@ -9,7 +9,7 @@ Cheatsheets from Codecademy
 * [Bash/Shell](Bash/Shell/Bash/Shell.md)
 * [Ruby](Ruby/Learn%20Ruby.md)
 * [C++](C++/Learn%20C++.md)
-* [R](R/R.md)
+* [R](R/TOPICS.md)
 * [C#](C#/TOPICS.md)
 * [PHP](PHP/Learn%20PHP.md)
 * [Go](Go/Learn%20Go.md)
