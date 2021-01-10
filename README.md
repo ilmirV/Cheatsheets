@@ -2,8 +2,8 @@
 Cheatsheets from Codecademy
 ## Languages
 * [HTML & CSS](HTML%20&%20CSS/TOPICS.md)
-* [Python](Python/Python.md)
-* [JavaScript](JavaScript/JavaScript.md)
+* [Python](Python/TOPICS.md)
+* [JavaScript](JavaScript/TOPICS.md)
 * [Java](Java/TOPICS.md)
 * [SQL](SQL/TOPICS.md)
 * [Bash/Shell](Bash/Shell/Bash/Shell.md)
