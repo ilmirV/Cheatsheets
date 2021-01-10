@@ -1,5 +1,5 @@
 # Learn HTML
-#### TOPICS <a name="topic"></a>
+#### TOPICS <a name="topics"></a>
 * [Elements and Structures](#elements)
 * [Tables](#tables)
 * [Forms](#forms)
