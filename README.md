@@ -1,1 +1,28 @@
 # Cheatsheets
+Cheatsheets from Codecademy
+## Languages
+* [HTML & CSS]()
+* [Python](Python/Python.md)
+* [JavaScript]()
+* [Java]()
+* [SQL]()
+* [Bash/Shell]()
+* [Ruby]()
+* [C++]()
+* [R]()
+* [C#]()
+* [PHP]()
+* [Go]()
+* [Swift]()
+* [Kotlin]()
+## Subjects
+* [Web Development]()
+* [Data Science]()
+* [Computer Science]()
+* [Developer Tools]()
+* [Machine Learning]()
+* [Code Foundations]()
+* [Web Design]()
+* [Game Development]()
+* [Mobile Development]()
+* [Data Visualization]()
