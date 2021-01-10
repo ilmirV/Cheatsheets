@@ -4,7 +4,7 @@ Cheatsheets from Codecademy
 * [HTML & CSS](HTML%20&%20CSS/TOPICS.md)
 * [Python](Python/Python.md)
 * [JavaScript](JavaScript/JavaScript.md)
-* [Java](Java/Java.md)
+* [Java](Java/TOPICS.md)
 * [SQL](SQL/TOPICS.md)
 * [Bash/Shell](Bash/Shell/Bash/Shell.md)
 * [Ruby](Ruby/Learn%20Ruby.md)
