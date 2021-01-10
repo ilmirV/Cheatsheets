@@ -1,7 +1,7 @@
 # Cheatsheets
 Cheatsheets from Codecademy
 ## Languages
-* [HTML & CSS](HTML%20&%20CSS/Contents.md)
+* [HTML & CSS](HTML%20&%20CSS/TOPICS.md)
 * [Python](Python/Python.md)
 * [JavaScript](JavaScript/JavaScript.md)
 * [Java](Java/Java.md)
