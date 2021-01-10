@@ -1125,4 +1125,5 @@ class SavingsAccount: BankAccount {
 Classes are reference types, while structures are value types, classes are reference types.
 
 Unlike value types, reference types are not copied when they are assigned to a variable or constant, or when they are passed to a function. Rather than a copy, a reference to the same existing instance is used.
+
 [Go to Topics](#topics)
