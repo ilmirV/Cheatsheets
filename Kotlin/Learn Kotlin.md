@@ -480,7 +480,7 @@ println(worldCapitals)
 // Prints: {United States=Washington D.C., Mexico=Mexico City, France=Paris, Brazil=Brasilia}
 ```
 ## Loops <a name="loops"></a>
-
+Sorry! Looks like this cheatsheet isn't available yet.
 ## Functions <a name="functions"></a>
 ### Functions
 A function is a named, reusable block of code that can be called and executed throughout a program.
