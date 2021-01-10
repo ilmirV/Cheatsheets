@@ -6,7 +6,7 @@ Cheatsheets from Codecademy
 * [JavaScript](JavaScript/TOPICS.md)
 * [Java](Java/TOPICS.md)
 * [SQL](SQL/TOPICS.md)
-* [Bash/Shell](Bash/Shell/TOPICS.md)
+* [Bash/Shell](Bash:Shell/TOPICS.md)
 * [Ruby](Ruby/Learn%20Ruby.md)
 * [C++](C++/Learn%20C++.md)
 * [R](R/TOPICS.md)
