@@ -5,7 +5,7 @@ Cheatsheets from Codecademy
 * [Python](Python/Python.md)
 * [JavaScript](JavaScript/JavaScript.md)
 * [Java](Java/Java.md)
-* [SQL](SQL/SQL.md)
+* [SQL](SQL/TOPICS.md)
 * [Bash/Shell](Bash/Shell/Bash/Shell.md)
 * [Ruby](Ruby/Learn%20Ruby.md)
 * [C++](C++/Learn%20C++.md)
