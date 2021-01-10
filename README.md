@@ -10,7 +10,7 @@ Cheatsheets from Codecademy
 * [Ruby](Ruby/Learn%20Ruby.md)
 * [C++](C++/Learn%20C++.md)
 * [R](R/R.md)
-* [C#](C#/C#.md)
+* [C#](C#/TOPICS.md)
 * [PHP](PHP/Learn%20PHP.md)
 * [Go](Go/Learn%20Go.md)
 * [Swift](Swift/Learn%20Swift.md)
